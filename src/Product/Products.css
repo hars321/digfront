@@ -1,0 +1,23 @@
+.Logout{
+    margin-top: 5vh;
+}
+.Products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Product-List{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media screen and (max-width:800px) {
+    .Product-List{
+        grid-template-columns: auto;
+    }
+    
+}
